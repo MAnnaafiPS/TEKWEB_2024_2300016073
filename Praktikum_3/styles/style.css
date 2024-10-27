@@ -1,0 +1,196 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+.header img {
+    border: 5px solid rgb(0, 0, 0);
+} 
+h1 {
+    color: rgb(235, 199, 0);
+}
+.header h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(49, 6, 6);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 40px 40px 40px 40px;
+    width: 800px;
+    height: 800px;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.main {
+    padding: 20px;
+}
+
+.header{
+    padding: 10px;
+    margin: 10px ;
+}
+.header img{
+    border-radius: 500px;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: 10px ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px;
+}
+.containerpicture{
+    background-color: white;
+    padding: 20px;
+    margin: 10px ;
+    border: 2px solid rgb(0, 0, 0);
+    display: block;
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px;
+}
+
+.containerpicture img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+.containerpicture img:hover {
+    transform: scale(1.2);
+}
+
+.projects {
+    background-color: white;
+    padding: 20px;
+    margin: 10px ;
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 10px 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+.project:hover {
+    background-color: #e8eb45;
+}
+
+.project a {
+    color: #e60000;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    border-left: 4px solid #e60000;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+.contact{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 10px ;
+    border: 2px solid rgb(0, 0, 0);
+    display: block;
+    border-radius: 5px;
+    box-shadow: black 10px 10px 10px;
+}
+
+.contact a:hover {
+    background-color: #e8eb45;
+    font-size: larger;
+}
+
+
+.allbutton {
+    display: inline-flex;
+    padding: 10px 20px 20px 10px;
+    gap : 20px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown label {
+    color: #e8eb45;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.slider-container {
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.slider-container label {
+    color: #e8eb45;
+    font-weight: bold;
+}
+
+.slider-container input[type="range"] {
+    width: 100%;
+}
+
+#font-size-display {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.toggledarkmode button {
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.toggledarkmode button:hover {
+    background-color: #e8eb45;
+}
+
+.font-toggle {
+    margin-bottom: 5px;
+}
+
+.font-toggle button {
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.font-toggle button:hover {
+    background-color: #e8eb45;
+}
+
+.container, .projects, .containerpicture, .contact {
+    transition: font-family 0.3s;
+}
