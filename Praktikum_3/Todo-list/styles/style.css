@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container select {
+    padding: 10px 10px 10px 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align the buttons */
+    gap: 10px; /* Add spacing between buttons */
+    margin-top: 10px;
+}
+
+.button-container button,
+.button-container select {
+    width: 150px; /* Set a fixed width to align them in two rows */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
